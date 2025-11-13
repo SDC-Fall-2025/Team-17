@@ -1,0 +1,309 @@
+I am not logging this :)  but just for the record:
+
+Issue body:
+
+From: Ethan Meng &lt;ethan.meng@wisc.edu&gt;
+To: wisc-sdc-fa25-team@list.rapidcow.org
+Date: Thu, 13 Nov 2025 13:42:42 -0600
+Message-ID: &lt;[1763062962.PATCH0000.v1@q.rapidcow.org](https://list.rapidcow.org/inbox/wisc-sdc-fa25-team/1763062962.PATCH0000.v1@q.rapidcow.org/)&gt;
+
+When I first created this repository some eons ago, I was not
+anticipating to be the sole contributer on the project for the
+first 100 commits.  However, five commits ago, that just became
+the case, just as commit 70e840568bdf9fc75ab8849bef98d25c4dfcb1b2
+was published.
+
+Well...
+
+Given the short amount of time left in this semester for any
+other member to surpass this imprudent act of squandering time,
+I think it is imperative that I release my work henceforth
+under the MIT license, such that -- should any future affiliates
+of the university wish to extend this application, they may pick
+it up from here (if they even deem this code base as anything
+sustainable and maintainable to begin with).
+
+This patch is not negotiable, and all future works will be
+published under the same license.  By pushing to this repository
+you waive your copyright to the team IRRESPECTIVE of whether you
+acknowledge doing so using the Signed-off-by Git commit trailer.
+Maybe before I got a full frontend-backend working, you should
+have made the slightest gesture that you cared to contribute;
+now none of you have any say over anything at all. :)
+
+Signed-off-by: Ethan Meng &lt;ethan.meng@wisc.edu&gt;
+&#45;&#45;&#45;
+ LICENSE | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+
+diff --git a/LICENSE b/LICENSE
+index [a14a019](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/19404463d276c5ae87f8f5ec0728367f70ffaf48/LICENSE "19404463d276c5ae87f8f5ec0728367f70ffaf48:LICENSE")..[027cc61](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/8de52d48cb2171d0902e1ec2d330cb56337c9bc0/LICENSE "8de52d48cb2171d0902e1ec2d330cb56337c9bc0:LICENSE") 100644
+--- a/LICENSE
++++ b/LICENSE
+@@ -1,7 +1,16 @@
++MIT License
++
+ Copyright (c) 2025 Fall, Software Development Club Team 17/11
+&#32;
+-All Rights Reserved.  No license shall be granted until further notice
+-from the Club.
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in
++all copies or substantial portions of the Software.
+&#32;
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+&#45;&#45;&#32;
+2.51.2
+
+Hook JSON:
+
+POST /cgi-bin/request-pull.cgi
+Accept: */*
+Content-Type: application/json
+User-Agent: GitHub-Hookshot/33d7fd9
+X-GitHub-Delivery: b4d16e04-c0d1-11f0-8b26-87543de0d814
+X-GitHub-Event: issues
+X-GitHub-Hook-ID: 576059338
+X-GitHub-Hook-Installation-Target-ID: 1078496396
+X-GitHub-Hook-Installation-Target-Type: repository
+X-Hub-Signature: sha1=3888d54cd26b822562dcb0a970d9ee739319ea22
+X-Hub-Signature-256: sha256=98fab614c6529cb3a48d59e8a88b0feba80c152ddf8819cabe1615682565536a
+
+{
+  "action": "opened",
+  "issue": {
+    "url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/issues/2",
+    "repository_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar",
+    "labels_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/issues/2/labels{/name}",
+    "comments_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/issues/2/comments",
+    "events_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/issues/2/events",
+    "html_url": "https://github.com/SDC-Fall-2025/Team-17-Club-Radar/issues/2",
+    "id": 3622760447,
+    "node_id": "I_kwDOQEiMjM7X7u__",
+    "number": 2,
+    "title": "[PATCH] Re-license under MIT license",
+    "user": {
+      "login": "eyzmeng",
+      "id": 149838796,
+      "node_id": "U_kgDOCO5bzA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149838796?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eyzmeng",
+      "html_url": "https://github.com/eyzmeng",
+      "followers_url": "https://api.github.com/users/eyzmeng/followers",
+      "following_url": "https://api.github.com/users/eyzmeng/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eyzmeng/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eyzmeng/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eyzmeng/subscriptions",
+      "organizations_url": "https://api.github.com/users/eyzmeng/orgs",
+      "repos_url": "https://api.github.com/users/eyzmeng/repos",
+      "events_url": "https://api.github.com/users/eyzmeng/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eyzmeng/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2025-11-13T20:45:35Z",
+    "updated_at": "2025-11-13T20:45:35Z",
+    "closed_at": null,
+    "author_association": "COLLABORATOR",
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "From: Ethan Meng &lt;ethan.meng@wisc.edu&gt;\nTo: wisc-sdc-fa25-team@list.rapidcow.org\nDate: Thu, 13 Nov 2025 13:42:42 -0600\nMessage-ID: &lt;[1763062962.PATCH0000.v1@q.rapidcow.org](https://list.rapidcow.org/inbox/wisc-sdc-fa25-team/1763062962.PATCH0000.v1@q.rapidcow.org/)&gt;\n\nWhen I first created this repository some eons ago, I was not\nanticipating to be the sole contributer on the project for the\nfirst 100 commits.  However, five commits ago, that just became\nthe case, just as commit 70e840568bdf9fc75ab8849bef98d25c4dfcb1b2\nwas published.\n\nWell...\n\nGiven the short amount of time left in this semester for any\nother member to surpass this imprudent act of squandering time,\nI think it is imperative that I release my work henceforth\nunder the MIT license, such that -- should any future affiliates\nof the university wish to extend this application, they may pick\nit up from here (if they even deem this code base as anything\nsustainable and maintainable to begin with).\n\nThis patch is not negotiable, and all future works will be\npublished under the same license.  By pushing to this repository\nyou waive your copyright to the team IRRESPECTIVE of whether you\nacknowledge doing so using the Signed-off-by Git commit trailer.\nMaybe before I got a full frontend-backend working, you should\nhave made the slightest gesture that you cared to contribute;\nnow none of you have any say over anything at all. :)\n\nSigned-off-by: Ethan Meng &lt;ethan.meng@wisc.edu&gt;\n&#45;&#45;&#45;\n LICENSE | 13 +++++++++++--\n 1 file changed, 11 insertions(+), 2 deletions(-)\n\ndiff --git a/LICENSE b/LICENSE\nindex [a14a019](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/19404463d276c5ae87f8f5ec0728367f70ffaf48/LICENSE \"19404463d276c5ae87f8f5ec0728367f70ffaf48:LICENSE\")..[027cc61](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/8de52d48cb2171d0902e1ec2d330cb56337c9bc0/LICENSE \"8de52d48cb2171d0902e1ec2d330cb56337c9bc0:LICENSE\") 100644\n--- a/LICENSE\n+++ b/LICENSE\n@@ -1,7 +1,16 @@\n+MIT License\n+\n Copyright (c) 2025 Fall, Software Development Club Team 17/11\n&#32;\n-All Rights Reserved.  No license shall be granted until further notice\n-from the Club.\n+Permission is hereby granted, free of charge, to any person obtaining a copy\n+of this software and associated documentation files (the \"Software\"), to deal\n+in the Software without restriction, including without limitation the rights\n+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n+copies of the Software, and to permit persons to whom the Software is\n+furnished to do so, subject to the following conditions:\n+\n+The above copyright notice and this permission notice shall be included in\n+all copies or substantial portions of the Software.\n&#32;\n THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n&#45;&#45;&#32;\n2.51.2\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/issues/2/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/issues/2/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  "repository": {
+    "id": 1078496396,
+    "node_id": "R_kgDOQEiMjA",
+    "name": "Team-17-Club-Radar",
+    "full_name": "SDC-Fall-2025/Team-17-Club-Radar",
+    "private": false,
+    "owner": {
+      "login": "SDC-Fall-2025",
+      "id": 234838190,
+      "node_id": "O_kgDODf9Yrg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/234838190?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SDC-Fall-2025",
+      "html_url": "https://github.com/SDC-Fall-2025",
+      "followers_url": "https://api.github.com/users/SDC-Fall-2025/followers",
+      "following_url": "https://api.github.com/users/SDC-Fall-2025/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SDC-Fall-2025/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SDC-Fall-2025/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SDC-Fall-2025/subscriptions",
+      "organizations_url": "https://api.github.com/users/SDC-Fall-2025/orgs",
+      "repos_url": "https://api.github.com/users/SDC-Fall-2025/repos",
+      "events_url": "https://api.github.com/users/SDC-Fall-2025/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SDC-Fall-2025/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/SDC-Fall-2025/Team-17-Club-Radar",
+    "description": "club discovery thingy",
+    "fork": false,
+    "url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar",
+    "forks_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/forks",
+    "keys_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/teams",
+    "hooks_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/hooks",
+    "issue_events_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/events",
+    "assignees_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/tags",
+    "blobs_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/languages",
+    "stargazers_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/stargazers",
+    "contributors_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/contributors",
+    "subscribers_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/subscribers",
+    "subscription_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/subscription",
+    "commits_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/merges",
+    "archive_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/downloads",
+    "issues_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/labels{/name}",
+    "releases_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/SDC-Fall-2025/Team-17-Club-Radar/deployments",
+    "created_at": "2025-10-17T20:37:23Z",
+    "updated_at": "2025-11-13T19:19:50Z",
+    "pushed_at": "2025-11-13T20:34:16Z",
+    "git_url": "git://github.com/SDC-Fall-2025/Team-17-Club-Radar.git",
+    "ssh_url": "git@github.com:SDC-Fall-2025/Team-17-Club-Radar.git",
+    "clone_url": "https://github.com/SDC-Fall-2025/Team-17-Club-Radar.git",
+    "svn_url": "https://github.com/SDC-Fall-2025/Team-17-Club-Radar",
+    "homepage": "https://clubradar.endfindme.com/",
+    "size": 384,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "Perl",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 1,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+
+    ],
+    "visibility": "public",
+    "forks": 1,
+    "open_issues": 1,
+    "watchers": 0,
+    "default_branch": "master",
+    "custom_properties": {
+
+    }
+  },
+  "organization": {
+    "login": "SDC-Fall-2025",
+    "id": 234838190,
+    "node_id": "O_kgDODf9Yrg",
+    "url": "https://api.github.com/orgs/SDC-Fall-2025",
+    "repos_url": "https://api.github.com/orgs/SDC-Fall-2025/repos",
+    "events_url": "https://api.github.com/orgs/SDC-Fall-2025/events",
+    "hooks_url": "https://api.github.com/orgs/SDC-Fall-2025/hooks",
+    "issues_url": "https://api.github.com/orgs/SDC-Fall-2025/issues",
+    "members_url": "https://api.github.com/orgs/SDC-Fall-2025/members{/member}",
+    "public_members_url": "https://api.github.com/orgs/SDC-Fall-2025/public_members{/member}",
+    "avatar_url": "https://avatars.githubusercontent.com/u/234838190?v=4",
+    "description": "This will be the organization hub for fall 2025 SDC group projects!"
+  },
+  "sender": {
+    "login": "eyzmeng",
+    "id": 149838796,
+    "node_id": "U_kgDOCO5bzA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/149838796?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/eyzmeng",
+    "html_url": "https://github.com/eyzmeng",
+    "followers_url": "https://api.github.com/users/eyzmeng/followers",
+    "following_url": "https://api.github.com/users/eyzmeng/following{/other_user}",
+    "gists_url": "https://api.github.com/users/eyzmeng/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/eyzmeng/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/eyzmeng/subscriptions",
+    "organizations_url": "https://api.github.com/users/eyzmeng/orgs",
+    "repos_url": "https://api.github.com/users/eyzmeng/repos",
+    "events_url": "https://api.github.com/users/eyzmeng/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/eyzmeng/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  }
+}
+
+Having html preserve trailing space is hard.  I think the diff is
+still technically broken as the singular spaces are "stripped"?
+Welp, I tried...
