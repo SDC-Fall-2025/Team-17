@@ -12,6 +12,7 @@ Gmail=$(git config gitweb.commit-email)
 	export GIT_AUTHOR_EMAIL=$Gmail GIT_COMMITTER_EMAIL=$Gmail
 	~/tree/utils/store-meta "$@" -- . refs/info/view
 )
+~/tree/utils/store-meta "$@" -- .
 git commit-tree \
 	-p refs/info/self \
 	-p refs/info/view \
