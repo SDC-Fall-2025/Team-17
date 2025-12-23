@@ -6,30 +6,4 @@ cd "$GIT_DIR"
 git fsck --full --strict
 git update-server-info
 git pack-refs --all
-perl <<'__END__' | tee info/size | sed >&2 's/^/! /'
-use strict;
-no strict 'refs';
-no strict 'vars';
-use warnings;
-
-my @H;
-chomp (@roboty = `git count-objects -v`);
-chomp (@humany = `git count-objects -v -H`);
-
-foreach my $SELF ('roboty', 'humany') {
-	foreach (@$SELF) {
-		my ($h, $v) = split /:\s/, $_, 2;
-		${$SELF}{$h} = $v;
-		push @H, $h, if $SELF eq 'roboty';
-	}
-}
-
-foreach (@H) {
-	unless (exists $roboty{$_} && $humany{$_} ne $roboty{$_}) {
-		print "$_: $roboty{$_}\n";
-	}
-	else {
-		print "$_: $roboty{$_} ($humany{$_})\n";
-	}
-}
-__END__
+git repack -adl
