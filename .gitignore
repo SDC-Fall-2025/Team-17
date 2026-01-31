@@ -167,11 +167,13 @@ $RECYCLE.BIN/
 
 ##****---> Emacs
 # https://github.com/github/gitignore/blob/main/Global/Emacs.gitignore
-# I personally don't use Emacs so I'll just take the ones I found in
+# I don't know much about Emacs so I'll just take the ones I found in
 # <https://stackoverflow.com/q/52391883/19411800>... (apparently
 # #*#'s are the Auto Save Files while the .#*#'s the File Locks.)
 .\#*
 \#*\#
+# For backup Emacs seems to use *~ as well.  That rule is matched in
+# the Vim section so I won't repeat it here.
 
 ##****---> ( misc )
 # Generic backup suffixes
