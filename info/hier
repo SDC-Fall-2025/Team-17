@@ -1,12 +1,12 @@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-* info/hier - git vcs repository infrastructure *
-*                                               *
-*                 presented by ... ...          *
-*        ^__^                                   *
-* %  __.-(o<)          Ethan Yizheng Meng       *
-*  \/    (__)    <ethan [at] rapidcow.org>!     *
-*  (______)_/                                   *
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!!!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!!!--* info/hier - git vcs repository infrastructure *
+!!!--*                                               *
+!!!--*                 presented by ... ...          *
+!!!--*        ^__^                                   *
+!!!--* %  __.-(o<)          Ethan Yizheng Meng       *
+!!!--*  \/    (__)    <ethan [at] rapidcow.org>!     *
+!!!--*  (______)_/                                   *
+!!!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 [[ This FILE supercedes `site/guide/hacker/infra.txt'. ]]
 
@@ -21,6 +21,11 @@ You can git-clone(1) us from the 'net at the following locations:
     https://github.com/rapidcow/site-wisc-sdc-fa25-team.git
        (github pages deployment)
     https://git.rdkw.org/pub/xcs/uwisc/sdc/fa-25/team.git
+    guest@git.rdkw.org:pub/xcs/uwisc/sdc/fa-25/team.git
+       (you should probably use git.rapidcow.org, since
+        that domain has been around longer; but i wrote
+        git.rdkw.org because i wanted to prove that my
+        URL is shorter :>)
 
 The following locations are obsolete; fetch them from one of
 the master repositories.
@@ -30,38 +35,51 @@ the master repositories.
     https://github.com/rapidcow/list-wisc-sdc-fa25-team.git
        (to retrieve refs/heads/*, fetch refs/heads/list/*)
     https://github.com/eyzmeng/code-wisc-sdc-fa25-team-club-radar.git
+       [[[[TO BE REMOVED]]]]
     https://codeberg.org/rapidcow/site-wisc-sdc-fa25-team.git
+       [[[[TO BE REMOVED]]]]
     https://codeberg.org/rapidcow/code-wisc-sdc-fa25-team.git
-       (just fetch the same ref; the name has not changed)
+       [[[[TO BE REMOVED]]]]
 
 The following is the status and description of every ref in
-every repository.  (Note that "item" is my private copy.)
+every repository.  (Note that "item" is my private copy, which is,
+really, useless to the rest of you who do not live on my laptop :)
 Where I mark "x", you should be able to get it there.
 Where I mark "?", you should not be able to get it there.
 Where I mark nothing, it means they are (to my knowledge) gone.
 
     item xcs/uwisc/sdc/fa-25/team
-    |https://github.com/SDC-Fall-2025/Team-17
-    |(https://github.com/eyzmeng/code-wisc-sdc-fa25-team)
-    ||https://github.com/eyzmeng/code-wisc-sdc-fa25-team
-    |||https://github.com/rapidcow/site-wisc-sdc-fa25-team
-    x    refs/info/self        bare repository information
-    xxx  refs/info/view        public version of info/self
-    xx   refs/heads/master     HEAD branch
-    xx   refs/heads/bip/*      branch* of interest-worthy projects
-    xx   refs/heads/test/vercel  Vercel development deployment
-    xx   refs/heads/ship/vercel  Vercel production deployment
-    xx?  refs/heads/edit       editable downstream (aka 'OUR' branch)
-    xx?  refs/heads/sync/edit  reflog of refs/heads/edit
-    xx   refs/heads/icmp/htdocs  source code of team.endfindme.com
-    xxx  refs/heads/gh-pages   GitHub CI Jekyll deployment
-    xx?  refs/heads/mod/cgi-bin   impl of request-pull.cgi
-    xx   refs/heads/list/master   public inbox v1 archive
-    xx?  refs/notes/
-    refs/notes/amlog           Message-Id as the cause of merge
-    refs/notes/commits         Commit notes
-    refs/notes/letters         Pull Requests (see "LETTER FORMAT")
-    refs/notes/vercel/deploy   Vercel deployment log
+    |https://git.rapidcow.org/pub/school/wisc/sdc/fa-25/team/
+    ||https://github.com/SDC-Fall-2025/Team-17
+    ||(https://github.com/eyzmeng/code-wisc-sdc-fa25-team)
+    |||https://github.com/eyzmeng/code-wisc-sdc-fa25-team
+    ||||https://github.com/rapidcow/site-wisc-sdc-fa25-team
+    |||||
+    x     refs/info/self        bare repository information
+    xxxxx refs/info/view        public version of info/self
+    xxxxx refs/info/rdk-self    auditing log on git.rapidcow.org
+    x     refs/info/rpi-self    auditing log on my Raspberry Pi
+    xxxx  refs/heads/master     HEAD branch
+    xxxx  refs/heads/bip/*      branch* of interest-worthy projects
+    xxxx  refs/heads/test/vercel  Vercel development deployment
+    xxxx  refs/heads/ship/vercel  Vercel production deployment
+    xxxx? refs/heads/edit       editable downstream (aka 'OUR' branch)
+    xxxx? refs/heads/sync/edit  reflog of refs/heads/edit
+    xxxx  refs/heads/icmp/htdocs  source code of team.endfindme.com
+    xxxxx refs/heads/gh-pages   GitHub CI Jekyll deployment
+    xxxx? refs/heads/mod/cgi-bin   impl of request-pull.cgi
+    xxxx  refs/heads/list/master   public inbox v1 archive
+    xxxx? refs/notes/
+                     amlog           Message-Id as the cause of merge
+                     commits         Commit notes
+                     letters         Pull Requests (see "LETTER FORMAT")
+                     vercel/deploy   Vercel deployment log
+    x?xx? refs/pull/
+                    [TODO]
+    xxxx? refs/pulls/
+                    [TODO]
+    xxxx? refs/logs/
+                    [TODO]
 
 Regarding the LETTER FORMAT, the following headers have been in use
 since Pull Request #1.  All dates are standardized in RFC 2822 format,

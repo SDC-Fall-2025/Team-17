@@ -10,7 +10,8 @@ Most notably:
   + For archive of the wisc-sdc-fa25-team "mailing" list, checkout
     `refs/heads/list/master'.
   + For a best-effort mirror of every GitWeb I have published branches in this
-    repository on, checkout `refs/remotes/<domain>/<path>.git/<branch name>'.
+    repository on, look for `refs/remotes/<domain>/<path>.git/<branch name>'
+    in packed-refs or info/refs (GITHUB WEB USERS: DON'T USE THE LATTER!!!)
     As this is a mirror, deleted repositories will be synchronized as ref
     deletions, in which case you have to manually dereference the relevant
     commit ID from this info ref to retrieve the commit at the tip of what
