@@ -20,8 +20,8 @@ You can git-clone(1) us from the 'net at the following locations:
        (backup/mirror master repository, in case the org does anything shady)
     https://github.com/rapidcow/site-wisc-sdc-fa25-team.git
        (github pages deployment)
-    https://git.rdkw.org/pub/xcs/uwisc/sdc/fa-25/team.git
-    guest@git.rdkw.org:pub/xcs/uwisc/sdc/fa-25/team.git
+    https://git.rdkw.org/pub/school/wisc/sdc/fa-25/team.git
+    guest@git.rdkw.org:pub/school/wisc/sdc/fa-25/team.git
        (you should probably use git.rapidcow.org, since
         that domain has been around longer; but i wrote
         git.rdkw.org because i wanted to prove that my
