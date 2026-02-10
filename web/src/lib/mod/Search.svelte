@@ -30,12 +30,13 @@
     audience
   });
 
-  const submit = () => {
+  const submit = (event) => {
+    event.preventDefault();
     search(getQueryParams());
   };
 </script>
 
-<form on:submit|preventDefault={submit} class="max-w-lg m-auto space-y-6">
+<form onsubmit={submit} class="max-w-lg m-auto space-y-6">
   <div>
     <label for="query" class="font-semibold block mb-1">Search</label>
     <input
@@ -62,7 +63,7 @@
                    {selectedTags.includes(tag)
               ? 'bg-gray-800 text-white border-gray-800'
               : 'bg-gray-100 hover:bg-gray-200'}"
-            on:click={() => toggleTag(tag)}
+            onclick={() => toggleTag(tag)}
           >
             {tag}
           </button>
