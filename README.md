@@ -48,8 +48,8 @@ verbatim club name match.  That is, you must type the *exact* query:
 *  `Web Development Club`
 *  `WebLabs`
 
-The search bar doesn't even submit the query when you hit Enter.
-(Sorry Team 13.  This app really is that dumb.)
+At one point the search bar didn't even submit the query when
+you hit Enter.  (Sorry Team 13.  This app really is that dumb.)
 
 
 ## Authorship
